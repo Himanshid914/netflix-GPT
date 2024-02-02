@@ -1,0 +1,18 @@
+export const LOGO =
+ "https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png";
+export const PHOTOURL =  "https://occ-0-6246-2186.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABTZ2zlLdBVC05fsd2YQAR43J6vB1NAUBOOrxt7oaFATxMhtdzlNZ846H3D8TZzooe2-FT853YVYs8p001KVFYopWi4D4NXM.png?r=229";
+export const API_OPTIONS = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1ZGM0MjdjN2M1MGYyNWFlZTM5YjM5Yzc2Nzk0MzgxNyIsInN1YiI6IjY1YjUyYmVkMTI0MjVjMDE2MjQ4ODE0MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.2X04MlljEqAOoQjWJysKosi8xJDxIO9ngE2ZKkL6mNg'
+    }
+  };
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/9662d0fd-0547-4665-b887-771617268815/IN-en-20240115-popsignuptwoweeks-perspective_alpha_website_large.jpg";
+
+export const SUPPORTED_LANGUAGES = [ {identifier: "en", name:"English"},
+                                     {identifier: "hindi", name:"Hindi"},
+                                     {identifier: "spanish", name:"Spanish"}
+                                    ];
